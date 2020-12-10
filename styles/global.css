@@ -10,15 +10,21 @@ body {
 
 * {
   box-sizing: border-box;
+  background-color: #ffffff;
 }
 
 a {
-  color: #0070f3;
-  text-decoration: none;
+  color: #3d3d3d;
+  text-decoration: underline;
+  /* text-decoration: none; */
+}
+
+h1 {
+  color: #000;
 }
 
 a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 img {

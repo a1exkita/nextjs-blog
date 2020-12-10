@@ -12,23 +12,52 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello. I'm Atsuhito Kita. I'm a CS student at Oregon State University fucusing on Natural Language Processing. Here is my <a href='https://www.linkedin.com/in/atsuhito-k-b20ab7b9/'>LinkedIn</a>. Feel free to connect with me.</p>
+        <p>Hello. I'm Atsuhito Kita. I'm a CS student and a NLP researcher at Oregon State University. Here is my <a href='https://www.linkedin.com/in/atsuhito-k-b20ab7b9/'>LinkedIn</a>. Feel free to connect with me.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Works</h2>
+        <h1>Works</h1>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, tag, image }) => (
             <li className={utilStyles.listItem} key={id}>
+
               <Link href={`/posts/${id}`}>
-                <a>{title}</a>
+                <a>
+                  <img src={image} />
+                  <p className={utilStyles.pad}>{title}</p>
+                </a>
               </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
+              <div className={utilStyles.pad}>
+                    <small className={utilStyles.lightText}>
+                      <Date dateString={date} />
+                      <p className={utilStyles.tagText}>{tag}</p>
+                    </small>
+              </div>
+
             </li>
           ))}
         </ul>
+        <h1>Background</h1>
+        <ul className={utilStyles.list}>
+            <li className={utilStyles.listBackground}>
+            <div className={utilStyles.listDetail}>
+                <h3 className={utilStyles.noPaddingAndMargin}>Rakuten Inc.</h3>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Software Engineer Intern</p>
+              </div>
+              <div className={utilStyles.listDetail}>
+                <h3 className={utilStyles.noPaddingAndMargin}>Oregon State University</h3>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Computer Science</p>
+              </div>
+              <div className={utilStyles.listDetail}>
+                <h3 className={utilStyles.noPaddingAndMargin}>Detsu Inc.</h3>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Business Consultant</p>
+              </div>
+              <div className={utilStyles.listDetail}>
+                <h3 className={utilStyles.noPaddingAndMargin}>Hitotsubashi University</h3>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Business</p>
+              </div>
+            </li>
+        </ul>
+        <p>Here is my <a href="/cv_AtsuhitoKita.pdf">CV</a>.</p>
       </section>
     </Layout>
   )
