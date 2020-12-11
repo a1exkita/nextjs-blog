@@ -48,7 +48,7 @@ export default function Home({ allPostsData }) {
                 <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Computer Science</p>
               </div>
               <div className={utilStyles.listDetail}>
-                <h3 className={utilStyles.noPaddingAndMargin}>Detsu Inc.</h3>
+                <h3 className={utilStyles.noPaddingAndMargin}>Dentsu Inc.</h3>
                 <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Business Consultant</p>
               </div>
               <div className={utilStyles.listDetail}>
