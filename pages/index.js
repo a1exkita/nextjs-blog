@@ -37,27 +37,56 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
         <h1>Background</h1>
+        <p>
+          I have working experience as a software engineer intern at Rakuten, which is the largest software company in Japan. I used to work as a marketing consultant for L'Oreal Paris and Softbank. So, I am able to develop software products while thinking of customer insights.
+        </p>
         <ul className={utilStyles.list}>
             <li className={utilStyles.listBackground}>
             <div className={utilStyles.listDetail}>
                 <h3 className={utilStyles.noPaddingAndMargin}>Rakuten Inc.</h3>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Jan. 2020 - Mar. 2020</p>
                 <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Software Engineer Intern</p>
               </div>
               <div className={utilStyles.listDetail}>
                 <h3 className={utilStyles.noPaddingAndMargin}>Oregon State University</h3>
-                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Computer Science</p>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Sep. 2018 - Jun. 2021</p>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Computer Science  GPA 4.00</p>
+              </div>
+              <div className={utilStyles.listDetail}>
+                <h3 className={utilStyles.noPaddingAndMargin}>Freelance</h3>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Oct. 2017 - May. 2018</p>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Web Developer & Designer</p>
               </div>
               <div className={utilStyles.listDetail}>
                 <h3 className={utilStyles.noPaddingAndMargin}>Dentsu Inc.</h3>
-                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Business Consultant</p>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Apr. 2016 - Sep. 2017</p>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Marketing Consultant</p>
               </div>
               <div className={utilStyles.listDetail}>
                 <h3 className={utilStyles.noPaddingAndMargin}>Hitotsubashi University</h3>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Apr. 2012 - Mar. 2016</p>
                 <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Business</p>
               </div>
             </li>
         </ul>
         <p>Here is my <a href="/cv_AtsuhitoKita.pdf">CV</a>.</p>
+        <h1>Skills</h1>
+        <div>
+            <p>Programming: </p>
+            <p>Python, C, C++, CUDA, Java, Kotlin, Typescript, React.js, HTML, CSS</p>
+        </div>
+        <div>
+            <p>Frameworks: </p>
+            <p>PyTorch, NumPy, CuPy, Spring Boot, Next.js</p>
+        </div>
+        <div>
+            <p>Databases: </p>
+            <p>MySQL, PostgreSQL, MongoDB</p>
+        </div>
+        <div>
+            <p>Miscellaneous: </p>
+            <p>Adobe Xd, Figma, Illustrator, Photoshop, After Effects, Premiere Pro</p>
+        </div>
       </section>
     </Layout>
   )
