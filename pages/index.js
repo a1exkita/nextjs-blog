@@ -12,7 +12,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello. I'm Atsuhito Kita. I'm a software engineer / data science student at Columbia University. Here is my <a href='https://www.linkedin.com/in/alex-kita/'>LinkedIn</a>. Feel free to connect with me.</p>
+        <p>Hello. I'm Alex Kita. I'm a software engineer / data science student at Columbia University. Here is my <a href='https://www.linkedin.com/in/alex-kita/'>LinkedIn</a>. Feel free to connect with me.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h1>Works</h1>
@@ -64,7 +64,7 @@ export default function Home({ allPostsData }) {
               </div>
             </li>
         </ul>
-        <p>Here are my <a href="/AlexKita_resume_2022_08.pdf">resume</a></p>
+        <p>Here is my <a href="/AlexKita_resume_2022_08.pdf">resume</a>.</p>
         <h1>Skills</h1>
         <div>
             <p>Programming: </p>
