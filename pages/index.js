@@ -48,6 +48,11 @@ export default function Home({ allPostsData }) {
                 <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Software Engineer Intern</p>
               </div>
               <div className={utilStyles.listDetail}>
+                <h3 className={utilStyles.noPaddingAndMargin}>Columbia University</h3>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Sep. 2021 - Dec. 2022</p>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>MS in Data Science  GPA 3.58</p>
+              </div>
+              <div className={utilStyles.listDetail}>
                 <h3 className={utilStyles.noPaddingAndMargin}>Rakuten Inc.</h3>
                 <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Jan. 2020 - Mar. 2020</p>
                 <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Software Engineer Intern</p>
@@ -55,11 +60,11 @@ export default function Home({ allPostsData }) {
               <div className={utilStyles.listDetail}>
                 <h3 className={utilStyles.noPaddingAndMargin}>Oregon State University</h3>
                 <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Sep. 2018 - Jun. 2021</p>
-                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Computer Science  GPA 4.00</p>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>BS in Computer Science  GPA 3.99</p>
               </div>
             </li>
         </ul>
-        <p>Here are my <a href="/AlexKita_resume_2022_08.pdf">resume</a> and <a href="/cv_AtsuhitoKita.pdf">CV</a>.</p>
+        <p>Here are my <a href="/AlexKita_resume_2022_08.pdf">resume</a></p>
         <h1>Skills</h1>
         <div>
             <p>Programming: </p>
