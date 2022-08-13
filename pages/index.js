@@ -12,7 +12,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello. I'm Atsuhito Kita. I'm a CS student and a NLP researcher at Oregon State University. Here is my <a href='https://www.linkedin.com/in/atsuhito-k-b20ab7b9/'>LinkedIn</a>. Feel free to connect with me.</p>
+        <p>Hello. I'm Atsuhito Kita. I'm a software engineer / data science student at Columbia University. Here is my <a href='https://www.linkedin.com/in/alex-kita/'>LinkedIn</a>. Feel free to connect with me.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h1>Works</h1>
@@ -38,11 +38,16 @@ export default function Home({ allPostsData }) {
         </ul>
         <h1>Background</h1>
         <p>
-          I have working experience as a software engineer intern at Rakuten, which is the largest software company in Japan. I used to work as a marketing consultant for L'Oreal Paris and Softbank. So, I am able to develop software products while thinking of customer insights.
+          I have demostrated research experience in the NLP research group at Oregn State University and development experience in multiple tech companies as an intern.
         </p>
         <ul className={utilStyles.list}>
             <li className={utilStyles.listBackground}>
-            <div className={utilStyles.listDetail}>
+              <div className={utilStyles.listDetail}>
+                <h3 className={utilStyles.noPaddingAndMargin}>SmartNews International, Inc.</h3>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Jun. 2022 - Aug. 2022</p>
+                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Software Engineer Intern</p>
+              </div>
+              <div className={utilStyles.listDetail}>
                 <h3 className={utilStyles.noPaddingAndMargin}>Rakuten Inc.</h3>
                 <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Jan. 2020 - Mar. 2020</p>
                 <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Software Engineer Intern</p>
@@ -52,32 +57,17 @@ export default function Home({ allPostsData }) {
                 <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Sep. 2018 - Jun. 2021</p>
                 <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Computer Science  GPA 4.00</p>
               </div>
-              <div className={utilStyles.listDetail}>
-                <h3 className={utilStyles.noPaddingAndMargin}>Freelance</h3>
-                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Oct. 2017 - May. 2018</p>
-                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Web Developer & Designer</p>
-              </div>
-              <div className={utilStyles.listDetail}>
-                <h3 className={utilStyles.noPaddingAndMargin}>Dentsu Inc.</h3>
-                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Apr. 2016 - Sep. 2017</p>
-                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Marketing Consultant</p>
-              </div>
-              <div className={utilStyles.listDetail}>
-                <h3 className={utilStyles.noPaddingAndMargin}>Hitotsubashi University</h3>
-                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Apr. 2012 - Mar. 2016</p>
-                <p className={`${utilStyles.noPaddingAndMargin} ${utilStyles.lightText}`}>Business</p>
-              </div>
             </li>
         </ul>
-        <p>Here is my <a href="/cv_AtsuhitoKita.pdf">CV</a>.</p>
+        <p>Here are my <a href="/AlexKita_resume_2022_08.pdf">resume</a> and <a href="/cv_AtsuhitoKita.pdf">CV</a>.</p>
         <h1>Skills</h1>
         <div>
             <p>Programming: </p>
-            <p>Python, C, C++, CUDA, Java, Kotlin, Typescript, React.js, HTML, CSS</p>
+            <p>Python, C++, CUDA, Java, Kotlin, Typescript, React.js, HTML, CSS</p>
         </div>
         <div>
             <p>Frameworks: </p>
-            <p>PyTorch, NumPy, CuPy, Spring Boot, Next.js</p>
+            <p>PyTorch, NumPy, Pandas, Scikit-learn, CuPy, Spring Boot, Next.js</p>
         </div>
         <div>
             <p>Databases: </p>
